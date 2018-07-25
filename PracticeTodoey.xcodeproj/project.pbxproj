@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F31782420FFA45E000B6A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F31782320FFA45E000B6A55 /* AppDelegate.swift */; };
-		1F31782620FFA45E000B6A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F31782520FFA45E000B6A55 /* ViewController.swift */; };
+		1F31782620FFA45E000B6A55 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F31782520FFA45E000B6A55 /* TodoListViewController.swift */; };
 		1F31782920FFA45E000B6A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F31782720FFA45E000B6A55 /* Main.storyboard */; };
 		1F31782B20FFA45E000B6A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F31782A20FFA45E000B6A55 /* Assets.xcassets */; };
 		1F31782E20FFA45E000B6A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F31782C20FFA45E000B6A55 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		1F31782020FFA45E000B6A55 /* PracticeTodoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTodoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F31782320FFA45E000B6A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F31782520FFA45E000B6A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F31782520FFA45E000B6A55 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		1F31782820FFA45E000B6A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F31782A20FFA45E000B6A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F31782D20FFA45E000B6A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1F31782320FFA45E000B6A55 /* AppDelegate.swift */,
-				1F31782520FFA45E000B6A55 /* ViewController.swift */,
+				1F31782520FFA45E000B6A55 /* TodoListViewController.swift */,
 				1F31782720FFA45E000B6A55 /* Main.storyboard */,
 				1F31782A20FFA45E000B6A55 /* Assets.xcassets */,
 				1F31782C20FFA45E000B6A55 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F31782620FFA45E000B6A55 /* ViewController.swift in Sources */,
+				1F31782620FFA45E000B6A55 /* TodoListViewController.swift in Sources */,
 				1F31782420FFA45E000B6A55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +280,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5D7TV84WEN;
 				INFOPLIST_FILE = PracticeTodoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Johnny.PracticeTodoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildcard.practiceTodoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e033ff45-5d59-4468-b1d0-701630b2c8c7";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,15 +300,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5D7TV84WEN;
 				INFOPLIST_FILE = PracticeTodoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Johnny.PracticeTodoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildcard.practiceTodoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e033ff45-5d59-4468-b1d0-701630b2c8c7";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
